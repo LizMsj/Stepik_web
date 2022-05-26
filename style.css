@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 80px;
+}
+
+.menu{
+    height: 110px;
+    width: 100%;
+}
+
+.menu_logo{
+    width: 100%;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: auto 46px 28px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu_logo:hover{
+    color: brown;
+}
+
+.menu_ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+} 
+
+.menu_li{
+    margin: 37px 0;
+    margin-left: 46px;
+    display: flex;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.menu_li:hover{
+    background-color: #817070;
+    color: #ffffff;
+    border-radius: 2px;
+    
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 18px;
+    cursor: default;
+}
+
+.home_img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.welkome{
+    position: absolute;
+	width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 89px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 900;
+    padding: 30px 0;
+}
+
+.welkome:hover{
+    background-color: #EFEFEF;
+    color: #817070;
+}
+
+.home_line{
+    margin-top: 100px;
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    background-color :#817070;
+}
+
+.story{
+    background-color: #ffffff;
+    height: auto;
+    cursor: default;
+}
+.story_content{
+    margin-left: 3%;
+    display: flex;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.story_title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 250%;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 60px 0 35px 0;
+}
+
+.story_img{
+    display: flex;
+    width: 45%;
+    height: 100%;
+}
+
+.story_text{
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.8em;
+    width: 50em;
+    height: 100%;
+    padding-left: 2%;
+    padding-right: 1%;
+    color: #000000;
+    font-size: 1.2em;   
+}
+
+.blog{
+    background: #EFEFEF;
+    height: auto;
+    cursor: default;
+}
+
+.blog_title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 250%;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 60px 0;
+    color: #000000;
+}
+
+.blog_content{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 65px;
+    margin: 0 10%;
+}
+
+.blog_s{
+    margin: 0 5.3%;
+    padding: 20px 20px 46px;
+    background-color: #ffffff;
+}
+
+.blog_s:hover{
+    background-color: #dbd6d6;
+}
+
+.blog_title_s{
+    height: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.blog_img{
+    width: 100%;
+    height: auto;
+    margin: 24px 0;
+}
+
+.blog_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.contact{
+    background: #817070;
+    height: 337px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_title{
+    margin: 60px 0 28px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: default;
+}
+
+.contact_email{
+    background-color: #817070; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 120%;
+    text-align: center;
+    color: #000000;
+    font-style: normal;
+    padding: 10px 90px;
+    border: 2px solid #ffffff;
+}
+    
+.contact_email::-webkit-input-placeholder{
+    color: #FFFFFF;
+}
+
+button{
+    margin-top: 28px;
+    width: 129px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #817070;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 72px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.footer_text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 29px;
+    cursor: default;
+}
